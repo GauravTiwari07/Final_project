@@ -1,0 +1,28 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Intresting Photos</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'app1/index.css' %}"/>
+</head>
+<body>
+	<div class="container">
+		<h1 style="text-align: center;">Intresting Photos</h1>
+		<h2 style="text-align: center;">Sign Up</h2>
+		<div class="section">
+			<form method="post" id="Sign_Up">
+			{% csrf_token %}    
+				<input id="username" type="text" name="username" placeholder="username" value={{ username }}><br>
+				<input id="name" type="text" name="name" placeholder="Your name" value={{ name }}><br>
+				<input id="email" type="text" name="email" placeholder="xyz@example.com" value={{ email }}><br>
+				<input id="password" type="password" name="password" placeholder="password" value={{ password }}><br>
+				<input type="submit" value="Sign Up" class="button"><br>
+			</form>
+			<p>Already a user?</p>
+			<a href="login/" class="button">Log in</a>
+   		</div>
+   	</div>
+</body>
+</html>
