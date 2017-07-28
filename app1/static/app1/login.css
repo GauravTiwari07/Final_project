@@ -4,30 +4,30 @@ body {
 h1 {
 	color: white;
 	border: solid;
-	border-color: #FE4316;
+	border-color: BlueViolet;
 	border-radius: 5px;
-	background-color: #FE4316;
+	background-color: BlueViolet;
 	text-align: center;
 }
 #log_in {
 	position: relative;
-	width:35%;
-	background-color: #F74F51;
+	width:40%;
+	background-color: BlueViolet;
 	margin: auto;
-	width:35%;
-	min-width: 350px;
-	height: 45%;
-	min-width: 180px;
+	width:40%;
+	min-width: 400px;
+	height: 50%;
+	min-width: 200px;
 	padding: 10px;
 	border-radius: inherit;
 }
 .container {
-	background-color: #BEBEBE;
+	background-color: DarkMagenta;
 	opacity: 0.3;
-	width:60%;
+	width:80%;
 	position: relative;
 	margin:auto;
-	height: 400px;
+	height: 500px;
 	padding: 20px;
 	border-radius: 10px;
 }
@@ -35,7 +35,7 @@ h1 {
 	opacity: 0.9;
 }
 body {
-	background: url("q.jpg");
+	background: url("images/login_background.jpg");
 	background-size: cover;
 }
 input {
@@ -43,7 +43,7 @@ input {
 	margin: 10px;
 }
 input[type=text],[type=password]{
-    width: 40%;
+    width: 80%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;

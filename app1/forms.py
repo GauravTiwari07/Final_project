@@ -30,3 +30,4 @@ class LikeCommForm(forms.ModelForm):
 	class Meta:
 		model = LikeComm
 		fields = ['comment']
+			

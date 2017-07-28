@@ -1,8 +1,6 @@
 body {
 	font-family: "verdana";
-    background: url("a.jpg");
-    background-size: cover;
-
+	background-color: #99cccc;
 }
 .container {
 	width: 360px;
@@ -15,7 +13,7 @@ body {
 	flex-wrap: wrap;
 	padding: 5px;
 	color:  #607d8b;
-    }
+}
 .header {
 	margin:auto;
 }
@@ -31,15 +29,15 @@ body {
 }
 .likearea {
 	position: relative;
-	background-color:  #D3D3D3;
+	background-color: #651fff;
 	width: inherit;
 	margin: auto;
 	padding: 5px;
-	color: #FE650C;
+	color: #e0e0e0;
 }
 .commentarea {
 	position: relative;
-	background-color:  Silver;
+	background-color: #7c4dff;
 	width: inherit;
 	margin: auto;
 	padding: 5px;
@@ -66,15 +64,6 @@ input[value=Like] ,[value=Comment] {
 input[value=Unlike] {
 	background-color:  #e91e63;
 }
-.img_capt {
-	background-color: #311b92;
-}
-input[value=Like] ,[value=Comment]{
-	background-color:  #0d47a1;
-}
-input[value=Unlike] {
-	background-color:  #FE2F2F;
-}
 .user {
 	color:black;
 }
@@ -83,4 +72,20 @@ input[value=Unlike] {
 }
 .dated {
 	color: #fff176;
+}
+input {
+	position: relative;
+	margin: 10px;
+	padding: 10px;
+}
+input[type=text] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=text]:hover {
+	background-color: Gainsboro;
 }
