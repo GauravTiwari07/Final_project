@@ -4,16 +4,16 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Intresting Photos</title>
+	<title>Social Kids</title>
 	<link rel="stylesheet" type="text/css" href="{% static 'app1/index.css' %}"/>
 </head>
 <body>
 	<div class="container">
-		<h1 style="text-align: center;">Intresting Photos</h1>
+		<h1 style="text-align: center;">Social Kids</h1>
 		<h2 style="text-align: center;">Sign Up</h2>
 		<div class="section">
 			<form method="post" id="Sign_Up">
-			{% csrf_token %}    
+			{% csrf_token %}
 				<input id="username" type="text" name="username" placeholder="username" value={{ username }}><br>
 				<input id="name" type="text" name="name" placeholder="Your name" value={{ name }}><br>
 				<input id="email" type="text" name="email" placeholder="xyz@example.com" value={{ email }}><br>
@@ -23,6 +23,16 @@
 			<p>Already a user?</p>
 			<a href="login/" class="button">Log in</a>
    		</div>
+		{% if form.errors %}
+			<div style="color: red;float: right;">
+				<p>
+					Please correct the errors below
+				</p>
+			{{ form.username.errors }}
+			{{ form.name.errors }}
+			{{ form.email.errors }}
+			</div>
+		{% endif %}
    	</div>
 </body>
 </html>
