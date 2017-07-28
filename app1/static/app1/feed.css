@@ -60,6 +60,15 @@ body {
 .img_capt {
 	background-color: #311b92;
 }
+input[value=Like] ,[value=Comment] {
+	background-color:  #0d47a1;
+}
+input[value=Unlike] {
+	background-color:  #e91e63;
+}
+.img_capt {
+	background-color: #311b92;
+}
 input[value=Like] ,[value=Comment]{
 	background-color:  #0d47a1;
 }
