@@ -2,14 +2,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="{% static 'app1/post.css' %}"/>
+<link rel="stylesheet" type="text/css" href="{% static 'app1/post1.css' %}"/>
 <title>Post</title>
 </head>
 <body>
+     <div class="post">
+            <h1>Post</h1>
 	<form method="POST" enctype="multipart/form-data" id="post_form">
 		{% csrf_token %}
 		{{form}}
-		<input type="submit" class="buttons" value="Add a picture">
+		<input type="submit" class="buttons" value="Add caption">
 	</form>
 </body>
 </html>

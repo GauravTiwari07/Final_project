@@ -1,6 +1,12 @@
 body {
 	font-family: "verdana";
-	background-color: #99cccc;
+	background: url("ab.jpg");
+    background-size: cover;	
+    width: 100%;
+	height: 800px;
+	background-size: cover;
+	position: absolute;
+	margin: auto;
 }
 .container {
 	width: 360px;
@@ -21,7 +27,7 @@ body {
 	position: relative;
 	margin: auto;
 	padding: 5px;
-	color: #e0e0e0;
+	color: #ff3300;
 }
 .captionarea {
 	position: relative;
@@ -29,15 +35,15 @@ body {
 }
 .likearea {
 	position: relative;
-	background-color: #651fff;
+	background-color: #D3D3D3;
 	width: inherit;
 	margin: auto;
 	padding: 5px;
-	color: #e0e0e0;
+	color: #ff3300;
 }
 .commentarea {
 	position: relative;
-	background-color: #7c4dff;
+	background-color: Silver;
 	width: inherit;
 	margin: auto;
 	padding: 5px;
@@ -49,7 +55,7 @@ body {
 	border: solid;
 	border-width: 2px;
 	border-radius: 5px;
-	background-color: #7c4dff;
+	background-color:  #ff1a1a;
 	padding: 5px;
 }
 .button:hover {
@@ -62,7 +68,7 @@ input[value=Like] ,[value=Comment] {
 	background-color:  #0d47a1;
 }
 input[value=Unlike] {
-	background-color:  #e91e63;
+	background-color:  #FE2F2F;
 }
 .user {
 	color:black;

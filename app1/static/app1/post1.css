@@ -1,0 +1,12 @@
+body {
+	font-family: "verdana";
+    color: darkorange;
+	background: url("wall.jpg");
+    background-size: cover;	
+    width: 100%;
+	height: 800px;
+	background-size: cover;
+	position: absolute;
+	margin: auto;
+    text-align: center;
+}
